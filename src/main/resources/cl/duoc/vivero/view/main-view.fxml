@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="458.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cl.duoc.vivero.controller.MainController">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="8.0" prefHeight="84.0" prefWidth="633.0">
+         <children>
+            <ChoiceBox layoutY="30.0" prefWidth="150.0" />
+            <Label layoutX="47.0" layoutY="5.0" prefHeight="25.0" prefWidth="68.0" text="Tipo:" />
+            <ChoiceBox layoutX="160.0" layoutY="30.0" prefWidth="150.0" />
+            <Label layoutX="201.0" layoutY="5.0" prefHeight="25.0" prefWidth="68.0" text="Nombre" />
+            <ChoiceBox layoutX="317.0" layoutY="30.0" prefWidth="150.0" />
+            <Label layoutX="358.0" layoutY="5.0" prefHeight="25.0" prefWidth="68.0" text="Altura" />
+            <ChoiceBox layoutX="476.0" layoutY="30.0" prefWidth="150.0" />
+            <Label layoutX="517.0" layoutY="5.0" prefHeight="25.0" prefWidth="68.0" text="Cantidad:" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
